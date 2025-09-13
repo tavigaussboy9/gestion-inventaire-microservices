@@ -15,7 +15,7 @@ services:
       - mongodb
 
   mongodb:
-    image: mongo:6.0.31
+    image: mongo:6.0.36
     ports:
       - '27017:27017'
     volumes:
